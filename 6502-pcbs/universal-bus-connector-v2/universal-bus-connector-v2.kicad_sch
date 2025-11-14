@@ -2,14 +2,8 @@
 	(version 20251012)
 	(generator "eeschema")
 	(generator_version "9.99")
-	(uuid "120d2c49-daff-425e-8ff2-b09f7f99bbee")
+	(uuid "9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d")
 	(paper "A5")
-	(title_block
-		(title "Universal Bus Connector")
-		(date "2025-11-13")
-		(rev "1")
-		(company "Sam Warr")
-	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x18_Socket"
 			(pin_names
@@ -1220,753 +1214,449 @@
 		)
 	)
 	(junction
-		(at 116.84 40.64)
+		(at 127 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "0724ef21-5196-4f46-8da1-44a9fb3ff6c3")
+		(uuid "0dd1eb60-db16-43b9-a8df-9cd40931d0c2")
 	)
 	(junction
-		(at 114.3 43.18)
+		(at 124.46 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5a1bf29e-226b-4a0a-9343-3095b410c844")
+		(uuid "9aebc797-55d7-4936-8510-7d4f3d494bc0")
 	)
 	(wire
 		(pts
-			(xy 116.84 39.37) (xy 116.84 40.64)
+			(xy 124.46 40.64) (xy 127 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34dff762-f45c-410b-9d0e-764c2c8344f5")
+		(uuid "0795b1a4-51d3-4a69-8790-ced9412ed354")
 	)
 	(wire
 		(pts
-			(xy 129.54 43.18) (xy 132.08 43.18)
+			(xy 121.92 36.83) (xy 127 36.83)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "56054851-1924-46c3-a060-b096222e4f6a")
+		(uuid "2a3b1a3c-62b5-4b9a-a363-5f90ac1e8dbe")
 	)
 	(wire
 		(pts
-			(xy 114.3 44.45) (xy 114.3 43.18)
+			(xy 139.7 40.64) (xy 142.24 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5e9efbf3-8074-47db-9a20-96cf2fd9b4d6")
+		(uuid "422c60bf-19c6-4ea6-88a6-41fe1f5df2ae")
 	)
 	(wire
 		(pts
-			(xy 111.76 39.37) (xy 116.84 39.37)
+			(xy 121.92 41.91) (xy 124.46 41.91)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cfa34dee-f168-49c3-9bfe-b053194ae869")
+		(uuid "6697941f-e36c-4f9c-95fe-2279e8434d68")
 	)
 	(wire
 		(pts
-			(xy 111.76 44.45) (xy 114.3 44.45)
+			(xy 127 36.83) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d3cfae5a-9f29-48cb-aee3-59f4d6e8570c")
+		(uuid "9d65c0b1-4699-4aa8-81e8-e8cc24c88e9e")
 	)
 	(wire
 		(pts
-			(xy 114.3 43.18) (xy 116.84 43.18)
+			(xy 124.46 41.91) (xy 124.46 40.64)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "e277a0c8-6062-4660-a767-1619d4c07102")
-	)
-	(label "D2"
-		(at 91.44 50.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0ad21fff-fbda-4580-a4ad-8a66e4fd3a4d")
-	)
-	(label "~{NMI}"
-		(at 91.44 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1758719b-b7f0-4e78-a108-29819f046533")
-	)
-	(label "A3"
-		(at 78.74 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2004ea22-cccc-42a4-bb99-fbd7cbd85d40")
-	)
-	(label "+5V"
-		(at 78.74 43.18 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3233ea1f-d884-4dbc-8e9c-bfc45e7c5299")
-	)
-	(label "A8"
-		(at 78.74 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35f7c805-1d17-4782-ab0e-eb470de92841")
-	)
-	(label "GND"
-		(at 91.44 73.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "49d8e4ac-9b65-4e38-a772-07c36f323d99")
-	)
-	(label "A2"
-		(at 78.74 50.8 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "56652ea4-f94f-4980-9d59-16eee40f3177")
-	)
-	(label "GND"
-		(at 78.74 40.64 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c94161a-1522-4ca1-a0ae-281ba3d56d73")
-	)
-	(label "BE"
-		(at 91.44 40.64 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cb36036-68f4-40ff-8118-2cc61cab28ad")
-	)
-	(label "D5"
-		(at 91.44 58.42 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cbfe812-7262-4c88-8f2d-c5ff8ba3b197")
-	)
-	(label "+5V"
-		(at 91.44 71.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "69cec79e-c968-4744-8758-2360f7c6a2b5")
-	)
-	(label "D0"
-		(at 91.44 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "74c051bd-4beb-4756-accd-f6a07d6a2043")
-	)
-	(label "A13"
-		(at 78.74 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "797a4a1f-040b-478a-8dbb-38ae4af8ce33")
-	)
-	(label "D4"
-		(at 91.44 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8f3b4dbc-f8c2-42b0-a9aa-a77557b6a789")
-	)
-	(label "A14"
-		(at 78.74 81.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96ed3f99-93b6-4e7a-80fd-370eb2ffc32e")
+		(uuid "e7fd6dae-15e4-4aa0-8c4a-3cd84c160f65")
 	)
 	(label "A10"
-		(at 78.74 71.12 180)
+		(at 88.9 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "9a25167c-1658-4d6d-9eb1-d5bc4db13b85")
-	)
-	(label "~{RES}"
-		(at 91.44 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a02005c6-afb5-4ce9-8131-3b04ca6941cf")
-	)
-	(label "D3"
-		(at 91.44 53.34 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a2301a49-e135-4d54-bd19-d7ea1e5977b2")
-	)
-	(label "CLK"
-		(at 91.44 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a5f4fc32-ca84-4780-8ed7-2244143193cf")
-	)
-	(label "SYNC"
-		(at 91.44 83.82 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a688640b-ea8f-4d83-ae43-a119040132ac")
-	)
-	(label "D1"
-		(at 91.44 48.26 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "abd9c545-9dca-4a23-8ca8-21d5b6413563")
-	)
-	(label "R{slash}~{W}"
-		(at 91.44 43.18 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ac25c3e4-d551-4fd0-beab-1680a4e4b059")
-	)
-	(label "~{IRQ}"
-		(at 91.44 78.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "aed19fe2-ce96-4983-b381-4a09121b4565")
-	)
-	(label "A15"
-		(at 78.74 83.82 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c5c132af-5064-4cf8-8e35-d9bf77367e0f")
-	)
-	(label "A1"
-		(at 78.74 48.26 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cca14bd0-88c4-4a3a-924b-b12f45d8081b")
-	)
-	(label "D6"
-		(at 91.44 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d070eda9-e32e-486c-91f7-187c306ef12c")
-	)
-	(label "A4"
-		(at 78.74 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0fc80ec-0df6-45e7-a687-5b6dfc7ebb04")
-	)
-	(label "A7"
-		(at 78.74 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "dd7a157d-507a-4503-9574-11cbf0195faf")
-	)
-	(label "D7"
-		(at 91.44 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de0da80b-c146-462c-b023-47fdddd8274d")
-	)
-	(label "A0"
-		(at 78.74 45.72 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "debeee69-bd11-4e3e-875a-db7bf13c73d3")
+		(uuid "008076a0-f4a2-41a8-97d6-d36b05da80ba")
 	)
 	(label "A11"
-		(at 78.74 73.66 180)
+		(at 88.9 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "dedc9f91-48fc-4050-9e1c-49b7c40bca1b")
+		(uuid "0a32f186-629a-4280-9df7-c5dc7a95088f")
 	)
-	(label "A5"
-		(at 78.74 58.42 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ed6d70e6-2707-4642-83e7-17eb5b52186d")
-	)
-	(label "A6"
-		(at 78.74 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f163f2a8-c46d-4abc-a4db-c793ed67d0ae")
-	)
-	(label "RDY"
-		(at 91.44 76.2 0)
+	(label "D7"
+		(at 101.6 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "f348a257-12f9-456d-b456-df044b4218d4")
+		(uuid "0f1fb58d-f31c-4698-a0d1-eb7a756391ae")
 	)
-	(label "A12"
-		(at 78.74 76.2 180)
+	(label "A15"
+		(at 88.9 81.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fde4debd-d16f-404f-9d5e-0433e17470f0")
+		(uuid "2936315a-4b05-4748-8204-b9a4c258cbfc")
 	)
 	(label "A9"
-		(at 78.74 68.58 180)
+		(at 88.9 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ff24992b-7a68-465f-8973-15565777465c")
+		(uuid "2deca1a3-10e3-4077-a1db-8484fb39f126")
 	)
-	(symbol
-		(lib_id "power:GND")
-		(at 116.84 40.64 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2a19c0cf-588a-48f8-963b-4315f15a22d3")
-		(property "Reference" "#PWR048"
-			(at 116.84 46.99 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+	(label "A13"
+		(at 88.9 76.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "GND"
-			(at 117.602 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 40.64 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "33a77800-1c1e-40dd-8fdc-c0b02dc5afd4")
-		)
-		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "#PWR048")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "3e7057f6-91a6-4952-bba4-5d0222cefbe0")
 	)
-	(symbol
-		(lib_id "Connector:Conn_01x18_Socket")
-		(at 124.46 60.96 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4578e66b-6d5a-42a9-8f33-7d0736bdff11")
-		(property "Reference" "J4"
-			(at 126.746 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(label "GND"
+		(at 101.6 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Value" "Universal Bus Connector v2"
-			(at 125.984 36.576 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 124.46 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x18, script generated"
-			(at 124.46 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "9c926f94-41cf-48c3-9fa3-bbeecfb0e6c5")
-		)
-		(pin "14"
-			(uuid "10b41446-7f6f-4b48-bd5e-604ef15af766")
-		)
-		(pin "11"
-			(uuid "336e1fb1-4a11-4bb9-a8c7-a330c40c86f7")
-		)
-		(pin "8"
-			(uuid "a1a420b7-fead-43a1-a3a6-30ba888c818c")
-		)
-		(pin "9"
-			(uuid "56817db5-7e38-482e-a4cc-18e457ff59d9")
-		)
-		(pin "13"
-			(uuid "8c3cb70d-a8bc-486d-9a3d-12acb89acf51")
-		)
-		(pin "16"
-			(uuid "e6254824-1d6a-46cb-91bf-138395662b26")
-		)
-		(pin "3"
-			(uuid "dd4f25de-4a4e-4bc2-a7ff-9e41e79d90c4")
-		)
-		(pin "18"
-			(uuid "216f9bda-be93-4b5e-b0e9-293375740376")
-		)
-		(pin "17"
-			(uuid "4e8dbbf9-4441-4b33-b868-723531383f2c")
-		)
-		(pin "4"
-			(uuid "851cefaf-d96d-4cbc-b0d7-7e92e5cf185b")
-		)
-		(pin "1"
-			(uuid "7acb3ae5-01a4-4aa9-a07a-942b3a717084")
-		)
-		(pin "2"
-			(uuid "cf550d01-aeba-45ef-95c2-048bf32c9b73")
-		)
-		(pin "7"
-			(uuid "2ef45c2c-b76a-4ef9-845c-66dc6412fbd0")
-		)
-		(pin "5"
-			(uuid "7b8e7845-e146-4ef5-baa0-32fbd4d05398")
-		)
-		(pin "6"
-			(uuid "08adc472-f8cd-4768-9e1f-43d1d8e28ab2")
-		)
-		(pin "12"
-			(uuid "4817ed7d-5476-4f2a-8948-c1eb70980898")
-		)
-		(pin "15"
-			(uuid "bfe6fb4f-8579-4ff8-a42b-3aa99638c353")
-		)
-		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
+		(uuid "3f0394d8-7f3b-4fbf-b314-362dada9f7f1")
 	)
-	(symbol
-		(lib_id "Connector:Conn_01x18_Socket")
-		(at 121.92 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4f686b5d-81d9-4a0f-9098-20649ee0d675")
-		(property "Reference" "J3"
-			(at 119.634 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+	(label "A6"
+		(at 88.9 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Value" "Universal Bus Connector v2"
-			(at 110.49 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
+		(uuid "4a217225-8a98-4996-bdac-b4ea309e4da4")
+	)
+	(label "A2"
+		(at 88.9 48.26 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Footprint" ""
-			(at 121.92 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "5199d0a0-f223-4534-abf8-f2e2f462f457")
+	)
+	(label "A12"
+		(at 88.9 73.66 180)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify right bottom)
 		)
-		(property "Datasheet" ""
-			(at 121.92 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "57c0892a-b16c-42d1-b365-63677b88b278")
+	)
+	(label "D1"
+		(at 101.6 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(property "Description" "Generic connector, single row, 01x18, script generated"
-			(at 121.92 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+		(uuid "58eaf2e1-24c7-41d4-a3de-726c0598d6e1")
+	)
+	(label "CLK"
+		(at 101.6 63.5 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
-		(pin "10"
-			(uuid "c4acae3f-9d58-44c9-b138-ecb7fc432307")
-		)
-		(pin "14"
-			(uuid "7249b450-3836-478f-9286-0ae2fc2d38b2")
-		)
-		(pin "11"
-			(uuid "81f857d4-6cf8-4961-94fb-462f74857d31")
-		)
-		(pin "8"
-			(uuid "b0fa0c4d-4317-4511-b9fc-7df6a642bf76")
-		)
-		(pin "9"
-			(uuid "0d560df7-07c6-45d7-abf0-e530556f0a9d")
-		)
-		(pin "13"
-			(uuid "68634e5f-d943-4f60-900b-72a04d2bcb44")
-		)
-		(pin "16"
-			(uuid "d3adeaca-edca-4ea3-b6dd-18960063fdaf")
-		)
-		(pin "3"
-			(uuid "c817a979-c719-4f7b-95b2-68cb5305445d")
-		)
-		(pin "18"
-			(uuid "bd0a7367-47bd-42f8-b635-8d644973745c")
-		)
-		(pin "17"
-			(uuid "02c943d7-cf44-47dc-8307-645ccae3398c")
-		)
-		(pin "4"
-			(uuid "95c9ee61-54c3-4348-9735-32bcf1135edb")
-		)
-		(pin "1"
-			(uuid "bce9a598-b690-4bab-9558-2cd4526e908c")
-		)
-		(pin "2"
-			(uuid "10d17ade-44a3-4a79-b865-8ac268130d0a")
-		)
-		(pin "7"
-			(uuid "f3417f54-96fc-4906-b4e9-0e4c968c2c56")
-		)
-		(pin "5"
-			(uuid "1f9a6f41-b4a4-4d7f-8aaf-94931a1df807")
-		)
-		(pin "6"
-			(uuid "89cfa8d2-110f-4d70-81e8-1a5c2d8a9c66")
-		)
-		(pin "12"
-			(uuid "0b7197ed-8749-4c89-886a-fd44b18b302b")
-		)
-		(pin "15"
-			(uuid "02ec3c73-f109-4b7b-9459-2682c3346cb2")
-		)
-		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "J3")
-					(unit 1)
-				)
+		(uuid "5b26956c-a101-4b9b-83a6-a041365eabaa")
+	)
+	(label "D2"
+		(at 101.6 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
 			)
+			(justify left bottom)
 		)
+		(uuid "5d3b838e-8402-4ab6-8c30-3670ef6b2fa3")
+	)
+	(label "A4"
+		(at 88.9 53.34 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5e8e5a62-aacc-42e1-8c79-18a9cbc75241")
+	)
+	(label "R{slash}~{W}"
+		(at 101.6 40.64 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6a6e98b0-7c96-4721-b770-e2886970d6a3")
+	)
+	(label "A8"
+		(at 88.9 63.5 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "76ef89f8-cc00-49d8-a874-e17210c85da6")
+	)
+	(label "BE"
+		(at 101.6 38.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8106401b-7906-4c70-b4d4-38da34123a36")
+	)
+	(label "~{RES}"
+		(at 101.6 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "855c89c8-f604-4bee-a5c9-dbb7dbc71922")
+	)
+	(label "A7"
+		(at 88.9 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86db737a-6989-4ce5-914a-045f365f05b7")
+	)
+	(label "+5V"
+		(at 101.6 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "87e9b577-c34a-4a23-b66e-ed3266226a2a")
+	)
+	(label "A5"
+		(at 88.9 55.88 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "88351eac-54e6-4575-b115-025d467b2798")
+	)
+	(label "D4"
+		(at 101.6 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "94deb5e3-a31d-4d82-a503-f17e7ff18139")
+	)
+	(label "D6"
+		(at 101.6 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c14b076-075e-4693-b979-1f2b64c70e5e")
+	)
+	(label "A3"
+		(at 88.9 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "afd8aa1e-7da7-4186-ae9b-b32035ed767e")
+	)
+	(label "~{NMI}"
+		(at 101.6 78.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bae53dde-b1ac-4b42-a25b-3ece4c1d0231")
+	)
+	(label "D5"
+		(at 101.6 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c191045d-7abb-47d3-955f-9e52456a146c")
+	)
+	(label "A0"
+		(at 88.9 43.18 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c37d67e1-a5d0-42d6-8a5c-d6858ae0348c")
+	)
+	(label "SYNC"
+		(at 101.6 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c89772e7-beab-45e4-b5c4-c8df87ccfbb5")
+	)
+	(label "D3"
+		(at 101.6 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf5a6abe-b140-4564-b790-10068879d2fe")
+	)
+	(label "A1"
+		(at 88.9 45.72 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2c82e17-1f3b-49c2-ab3e-79acc9615529")
+	)
+	(label "~{IRQ}"
+		(at 101.6 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6dd4195-71af-400f-8320-65f5f489ad0b")
+	)
+	(label "A14"
+		(at 88.9 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5a95151-00cf-467e-b175-31dc4e97b291")
+	)
+	(label "GND"
+		(at 88.9 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ee1f4468-f288-41be-8415-7f815a2ffd12")
+	)
+	(label "D0"
+		(at 101.6 43.18 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f65e4830-2279-4d57-982a-705c08c30804")
+	)
+	(label "RDY"
+		(at 101.6 73.66 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "faf31006-f20e-4679-8527-f3b32d88384e")
+	)
+	(label "+5V"
+		(at 88.9 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ff9f8a52-7791-405b-b742-d3d2cfe8576d")
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 114.3 43.18 0)
+		(at 124.46 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "62908575-a966-4704-bf35-73bc4a8e5c5c")
+		(uuid "0ed7ca04-7909-42fb-8baa-c4acd2d9a76b")
 		(property "Reference" "#PWR038"
-			(at 114.3 46.99 0)
+			(at 124.46 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -1975,7 +1665,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 114.808 41.148 0)
+			(at 124.968 38.608 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1983,7 +1673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 43.18 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -1992,7 +1682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 43.18 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -2001,7 +1691,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 114.3 43.18 0)
+			(at 124.46 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -2010,11 +1700,11 @@
 			)
 		)
 		(pin "1"
-			(uuid "f9954d82-19de-4ebb-8880-305cae81cb73")
+			(uuid "5c71960f-c2d3-4ea7-9ead-463f15471bf6")
 		)
 		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
 					(reference "#PWR038")
 					(unit 1)
 				)
@@ -2023,17 +1713,16 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x18_Socket")
-		(at 86.36 60.96 0)
-		(mirror y)
+		(at 132.08 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "7d9f96b1-1b3b-4fe9-8d55-838e5185f547")
-		(property "Reference" "J2"
-			(at 88.646 39.116 0)
+		(uuid "2e7a2cdc-692f-4c06-a64a-92f77c08bdf5")
+		(property "Reference" "J3"
+			(at 129.794 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2042,8 +1731,7 @@
 			)
 		)
 		(property "Value" "Universal Bus Connector v2"
-			(at 87.884 36.576 0)
-			(hide yes)
+			(at 120.65 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2052,7 +1740,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 86.36 60.96 0)
+			(at 132.08 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -2061,7 +1749,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 86.36 60.96 0)
+			(at 132.08 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -2070,7 +1758,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x18, script generated"
-			(at 86.36 60.96 0)
+			(at 132.08 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -2079,98 +1767,98 @@
 			)
 		)
 		(pin "10"
-			(uuid "113912e6-25c9-4aa2-a415-60293480e4ae")
+			(uuid "bd6198c8-5ca4-4026-9fee-809046251107")
 		)
 		(pin "14"
-			(uuid "4af8776a-ea3d-485d-a296-eb1792d74927")
+			(uuid "19b716ee-0f12-4fd2-9e52-73600a74c134")
 		)
 		(pin "11"
-			(uuid "92e89827-b438-4117-bc1a-7160d15a9b3b")
+			(uuid "6d1c20d3-e708-4387-bba5-af20945b470a")
 		)
 		(pin "8"
-			(uuid "043629aa-8858-411b-95f3-9d39a5f1ef1c")
+			(uuid "fc5e953e-6886-46a4-9019-81dbf069b8d6")
 		)
 		(pin "9"
-			(uuid "6d74fc13-a11e-40bd-a97f-4876a0ff1e72")
+			(uuid "77f7e415-bf63-42b4-9178-d3f9c4ac49ab")
 		)
 		(pin "13"
-			(uuid "44495cc0-f5ac-410e-9aed-2054badf2012")
+			(uuid "23b4ad16-c9b2-4ec5-897b-2b76732920d0")
 		)
 		(pin "16"
-			(uuid "2e0c0a2f-692d-4928-a3d4-119418200e80")
+			(uuid "a2bb8c30-e7f4-4da0-bd13-a03f4cee5344")
 		)
 		(pin "3"
-			(uuid "3db41639-47fa-487a-a1e5-975b3191ad2b")
+			(uuid "aa7f1be0-9522-4b14-a08f-991b651669ef")
 		)
 		(pin "18"
-			(uuid "2fa14bb5-679b-4c3d-a4c1-a0011f70ad3c")
+			(uuid "3dce7e16-0491-443d-a778-0973daaba05d")
 		)
 		(pin "17"
-			(uuid "c8719f57-5fe8-4912-b004-4ecd4f509d92")
+			(uuid "d2436f2b-2553-4ab7-a7a1-e3e29b76ce0b")
 		)
 		(pin "4"
-			(uuid "d5b72b26-33f5-447f-a063-93d12b33db9a")
+			(uuid "035fbdb8-a94c-4290-b1ed-00da843a1777")
 		)
 		(pin "1"
-			(uuid "92cbed0c-44fc-48cc-9aca-ec8a4d153191")
+			(uuid "a37f9c5d-77f4-48bc-b0f1-adbcff5b31f8")
 		)
 		(pin "2"
-			(uuid "b956937f-6f27-49da-b012-1b33360f8784")
+			(uuid "a43d5767-447d-49e8-954a-cd1c2cdc7eb8")
 		)
 		(pin "7"
-			(uuid "dfb0ba16-fbbb-439b-b722-10fcbd7fc77d")
+			(uuid "befc9c79-9fff-461c-a1c1-aa90ed9cf4dd")
 		)
 		(pin "5"
-			(uuid "3313ff48-d1f5-4419-95a2-74cc0fff4a27")
+			(uuid "5dc3330c-cd58-4ace-a938-ec164c0935e1")
 		)
 		(pin "6"
-			(uuid "fbf30329-55ae-4142-b2d4-a1c8d9757a9d")
+			(uuid "b0d35730-7c68-453f-86a7-50ca4d806c20")
 		)
 		(pin "12"
-			(uuid "978512a6-1743-4633-9cdc-2f93f9dffc1a")
+			(uuid "f9582fcf-1808-4c25-a29f-8a595bd27166")
 		)
 		(pin "15"
-			(uuid "dfaa4f37-be47-4792-833e-2be77e668a37")
+			(uuid "caae74bb-0691-49f5-9d41-b1e43cccc7f7")
 		)
 		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "J2")
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "J3")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 129.54 40.64 0)
-		(mirror y)
+		(lib_id "Connector:Conn_01x18_Socket")
+		(at 93.98 58.42 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "a85484a5-d56e-44a7-9e99-0f85c77dc2c6")
-		(property "Reference" "#PWR049"
-			(at 129.54 46.99 0)
-			(hide yes)
+		(uuid "5cb66059-bbe5-43da-9f32-3ed09ebdc6f2")
+		(property "Reference" "J1"
+			(at 91.694 36.576 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
-		(property "Value" "GND"
-			(at 129.54 41.148 0)
+		(property "Value" "Universal Bus Connector v2"
+			(at 82.55 34.036 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 129.54 40.64 0)
+			(at 93.98 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -2179,7 +1867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 129.54 40.64 0)
+			(at 93.98 58.42 0)
 			(hide yes)
 			(effects
 				(font
@@ -2187,22 +1875,73 @@
 				)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 129.54 40.64 0)
+		(property "Description" "Generic connector, single row, 01x18, script generated"
+			(at 93.98 58.42 0)
 			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
+		)
+		(pin "10"
+			(uuid "a1696fcc-78f9-4594-bd7f-5885504ce8db")
+		)
+		(pin "14"
+			(uuid "663deae1-a557-4895-b1ef-adaf0098b4b8")
+		)
+		(pin "11"
+			(uuid "13de664a-7cf5-4589-b61c-5b5d0e5d07da")
+		)
+		(pin "8"
+			(uuid "2ff36e55-aa72-4c49-a615-4744a8a4e837")
+		)
+		(pin "9"
+			(uuid "76ca134f-994b-4a12-8e47-ca8ef91673cc")
+		)
+		(pin "13"
+			(uuid "f6285175-6db8-4058-9daa-8dd5c9015b2b")
+		)
+		(pin "16"
+			(uuid "de6444e1-1259-4ff9-a9d2-816b37c68b72")
+		)
+		(pin "3"
+			(uuid "6c4d8aed-9ded-4646-8cc4-616d010c7372")
+		)
+		(pin "18"
+			(uuid "7d5d2a04-6c38-4223-aa6f-c9902b16d023")
+		)
+		(pin "17"
+			(uuid "e2a6ca8f-959e-4b51-8bd3-5a5921cc9557")
+		)
+		(pin "4"
+			(uuid "65f4483b-b407-42be-ac53-e242316ebd56")
 		)
 		(pin "1"
-			(uuid "f56f8295-be4f-474f-b759-396243711bd5")
+			(uuid "51fe9f34-4e72-46be-b6ed-837d6b71f04a")
+		)
+		(pin "2"
+			(uuid "72729269-aa29-4871-98ad-9f6ac09c39cc")
+		)
+		(pin "7"
+			(uuid "18cc6d86-f655-40b7-814c-d47f5a3db23f")
+		)
+		(pin "5"
+			(uuid "d4101690-192f-42fa-a4da-0d5dd1c95d78")
+		)
+		(pin "6"
+			(uuid "4471d466-fb1b-4b2d-88ac-547dee576387")
+		)
+		(pin "12"
+			(uuid "f7aab507-193f-4ad0-acb4-0ce15a7e4c35")
+		)
+		(pin "15"
+			(uuid "669df3b2-bb39-4a87-96d8-003732373bb7")
 		)
 		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "#PWR049")
+			(project ""
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -2210,7 +1949,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 111.76 41.91 0)
+		(at 121.92 39.37 0)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -2218,9 +1957,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "bcadfb5a-a042-4152-bb49-fb9c5ed4b938")
+		(uuid "7d04904b-2662-4c48-8925-17ecb97e5816")
 		(property "Reference" "C7"
-			(at 112.014 40.64 0)
+			(at 122.174 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2229,7 +1968,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 114.3 43.434 0)
+			(at 124.46 40.894 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2238,7 +1977,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:C_Rect_L4.6mm_W2.0mm_P2.50mm_MKS02_FKP02"
-			(at 111.76 41.91 0)
+			(at 121.92 39.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -2247,7 +1986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 41.91 0)
+			(at 121.92 39.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -2256,7 +1995,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 111.76 41.91 0)
+			(at 121.92 39.37 0)
 			(hide yes)
 			(effects
 				(font
@@ -2265,14 +2004,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "df008f45-3166-48be-9568-1f757da92b63")
+			(uuid "39a1d6ea-7e7f-49a2-8b92-e910fe79c225")
 		)
 		(pin "2"
-			(uuid "b569ffcd-dc1d-461e-961b-81bfa0f9f310")
+			(uuid "5b08c7c3-26cf-4722-a045-53ff7dab986d")
 		)
 		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
 					(reference "C7")
 					(unit 1)
 				)
@@ -2280,126 +2019,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x18_Socket")
-		(at 83.82 60.96 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c13d4631-2a3c-4084-802e-e46e57cb7c51")
-		(property "Reference" "J1"
-			(at 81.534 39.116 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Universal Bus Connector v2"
-			(at 72.39 36.576 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 83.82 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 83.82 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x18, script generated"
-			(at 83.82 60.96 0)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "10"
-			(uuid "00d61607-f731-4047-8538-60420b445d4e")
-		)
-		(pin "14"
-			(uuid "4f554110-e4e9-4ab6-9766-e40e23469a96")
-		)
-		(pin "11"
-			(uuid "023d6bd6-0fea-4710-9acd-6cd441ba7534")
-		)
-		(pin "8"
-			(uuid "cbd732b4-0d63-42d9-9bf5-ec005bcb40a4")
-		)
-		(pin "9"
-			(uuid "2bc1c08b-28ef-4d42-aff6-7b7c62157bb1")
-		)
-		(pin "13"
-			(uuid "b8a0ae08-71d1-4a76-b866-f95020930eba")
-		)
-		(pin "16"
-			(uuid "8c1f8cc0-1936-418d-895a-e0122e56f89f")
-		)
-		(pin "3"
-			(uuid "6617a612-72fb-40c9-8822-f5ee15899e3e")
-		)
-		(pin "18"
-			(uuid "e64e3639-b272-47d1-9ee8-3a67841ca5f4")
-		)
-		(pin "17"
-			(uuid "f3d31928-85b2-4386-9d6f-941da2846c10")
-		)
-		(pin "4"
-			(uuid "6081c5fb-ed95-40f1-a8d7-312dfb7c3327")
-		)
-		(pin "1"
-			(uuid "94048073-7381-4b84-a52f-b4b1bbf5e0e7")
-		)
-		(pin "2"
-			(uuid "6dc515d8-32a7-45fc-b6ff-0c917221c13e")
-		)
-		(pin "7"
-			(uuid "1e379c1a-ae72-4a18-9369-bdcae57893fe")
-		)
-		(pin "5"
-			(uuid "6ee94cc5-732f-48a9-993e-10dfe51b56f0")
-		)
-		(pin "6"
-			(uuid "5b00cffa-0fb3-4628-a45f-7f8f9ff119df")
-		)
-		(pin "12"
-			(uuid "1adf0cfa-c8ab-457b-b494-32b24512dc18")
-		)
-		(pin "15"
-			(uuid "446af4ee-dfd3-4280-89c2-3d5f6eb746fa")
-		)
-		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
-					(reference "J1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 132.08 43.18 0)
+		(at 142.24 40.64 0)
 		(mirror y)
 		(unit 1)
 		(body_style 1)
@@ -2407,9 +2028,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ddd11358-d9bf-4e39-ae48-071e929ab77c")
+		(uuid "8a18e2ce-6363-49a1-b008-338c404de5b7")
 		(property "Reference" "#PWR039"
-			(at 132.08 46.99 0)
+			(at 142.24 44.45 0)
 			(hide yes)
 			(effects
 				(font
@@ -2418,7 +2039,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 132.334 42.164 0)
+			(at 142.494 39.624 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2047,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 43.18 0)
+			(at 142.24 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -2435,7 +2056,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 43.18 0)
+			(at 142.24 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -2444,7 +2065,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 132.08 43.18 0)
+			(at 142.24 40.64 0)
 			(hide yes)
 			(effects
 				(font
@@ -2453,12 +2074,385 @@
 			)
 		)
 		(pin "1"
-			(uuid "84629dbb-5916-42e3-b6df-ea22e1d08147")
+			(uuid "ff3b96b7-02d4-43a1-9e42-c0aee8bfb285")
 		)
 		(instances
-			(project "universal-bus-connector"
-				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x18_Socket")
+		(at 134.62 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9f68ed86-4f5e-498c-b356-554426d77b35")
+		(property "Reference" "J4"
+			(at 136.906 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Universal Bus Connector v2"
+			(at 136.144 34.036 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x18, script generated"
+			(at 134.62 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "d09d372e-e364-4979-8d8d-9a729f620e4a")
+		)
+		(pin "14"
+			(uuid "655137bd-35d6-4576-971a-40ef891fa536")
+		)
+		(pin "11"
+			(uuid "c5c2fd51-0fee-4172-88f5-9a7ff916e73d")
+		)
+		(pin "8"
+			(uuid "2e21f195-6f06-4039-860e-7e44c006ab7e")
+		)
+		(pin "9"
+			(uuid "935c14ec-4c99-4b5a-95cb-9c38141bdd54")
+		)
+		(pin "13"
+			(uuid "c3ca5834-f249-4027-b491-9f285ba93cc4")
+		)
+		(pin "16"
+			(uuid "ff59a8b0-2083-40c1-9a15-1edfa396ee16")
+		)
+		(pin "3"
+			(uuid "432c84a9-721c-4fb6-bf2e-0f0f24db041d")
+		)
+		(pin "18"
+			(uuid "94bf9b17-f7bf-4dab-8f5a-eecc85c8b04c")
+		)
+		(pin "17"
+			(uuid "def4cb71-80f6-44df-9da0-5c77580f3d24")
+		)
+		(pin "4"
+			(uuid "e2f9fa67-3868-4960-9c31-32eb646f2490")
+		)
+		(pin "1"
+			(uuid "9a9413af-c7b3-4e4c-8f6b-8ba69d249adf")
+		)
+		(pin "2"
+			(uuid "6988c486-5534-4d68-94a8-ea99c17f119f")
+		)
+		(pin "7"
+			(uuid "7a553978-9d40-418e-99cc-4097253812f9")
+		)
+		(pin "5"
+			(uuid "fe8bc07d-80f6-4252-8aed-f09f6fb8b059")
+		)
+		(pin "6"
+			(uuid "78f4ee4a-7e58-4626-a1c4-b68de4eb979b")
+		)
+		(pin "12"
+			(uuid "d03be303-a00f-4629-a572-5f8dc8b1c8ee")
+		)
+		(pin "15"
+			(uuid "be748640-04df-469b-a6e6-a708b95da3c2")
+		)
+		(instances
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 127 38.1 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cca17d33-428d-4974-955b-fdc6c0f5c518")
+		(property "Reference" "#PWR048"
+			(at 127 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.762 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 127 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 127 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 127 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "71b811d2-1040-47c7-8f53-347bba7fa4b0")
+		)
+		(instances
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "#PWR048")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 38.1 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d93ed9d1-82b9-4f7f-926c-0cffcd093887")
+		(property "Reference" "#PWR049"
+			(at 139.7 44.45 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 38.608 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 38.1 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "2b6c24ae-007e-4f38-949d-ed81f0a48705")
+		)
+		(instances
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "#PWR049")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x18_Socket")
+		(at 96.52 58.42 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbb7ddb8-adaa-4c87-bfb6-21e1158f1f44")
+		(property "Reference" "J2"
+			(at 98.806 36.576 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Universal Bus Connector v2"
+			(at 98.044 34.036 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x18, script generated"
+			(at 96.52 58.42 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "10"
+			(uuid "3bd9c9b5-67b6-437e-b8bf-7924cfea9164")
+		)
+		(pin "14"
+			(uuid "184be01d-17c4-4e48-a73b-28baa5582b16")
+		)
+		(pin "11"
+			(uuid "658b96ee-dbf3-4ddb-8ee1-159bb25bf46a")
+		)
+		(pin "8"
+			(uuid "f11101a4-02a6-4446-81ba-dcefe2b327e9")
+		)
+		(pin "9"
+			(uuid "a8c9d8dd-ae90-4f49-b291-04d770415b1b")
+		)
+		(pin "13"
+			(uuid "ab478c58-bf6b-4c30-b890-021692b91c36")
+		)
+		(pin "16"
+			(uuid "5101d598-9566-48ad-bbf6-c2b29fd19a25")
+		)
+		(pin "3"
+			(uuid "45516043-43a3-4217-81ac-5b93d133143a")
+		)
+		(pin "18"
+			(uuid "7d8e9757-392d-4654-acf4-b773d58e4892")
+		)
+		(pin "17"
+			(uuid "69f32c35-29a2-4f3c-b198-7a075fe52d8b")
+		)
+		(pin "4"
+			(uuid "dd8f2acc-4b46-43f9-8a10-c9d52af6dd1e")
+		)
+		(pin "1"
+			(uuid "6b09a4b3-d94d-4ab1-8428-fc6f7dae10de")
+		)
+		(pin "2"
+			(uuid "af82e167-4407-4bd6-b16d-9d9a59f0906b")
+		)
+		(pin "7"
+			(uuid "f4f61d9f-6d72-4365-aaf6-d332326fbd20")
+		)
+		(pin "5"
+			(uuid "f7f2a92b-8ddc-43a9-84b8-2b5f3361f4bc")
+		)
+		(pin "6"
+			(uuid "ef3be27f-0544-4d2f-adc0-852ddadc96fc")
+		)
+		(pin "12"
+			(uuid "d81ede3d-0677-448e-b53f-a857d12d1f23")
+		)
+		(pin "15"
+			(uuid "8152f5aa-3a99-40c5-9ac4-df1f0ddb1f52")
+		)
+		(instances
+			(project "universal-bus-connector-v2"
+				(path "/9e8a4ed1-9651-4d84-a34b-6d7e5a11ef3d"
+					(reference "J2")
 					(unit 1)
 				)
 			)
