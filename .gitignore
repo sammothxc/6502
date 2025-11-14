@@ -3,3 +3,4 @@ tmp/
 .history/
 **/*-backups
 .lck
+*.lck
