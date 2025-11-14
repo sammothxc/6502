@@ -1,3 +1,5 @@
 Thumbs.db
 tmp/
 .history/
+**/*-backups
+.lck
