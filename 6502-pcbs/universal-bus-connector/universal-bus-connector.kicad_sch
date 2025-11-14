@@ -1263,6 +1263,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 71.12) (xy 130.81 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "897d4aae-276b-495f-9642-468ff7ef1750")
+	)
+	(wire
+		(pts
 			(xy 111.76 39.37) (xy 116.84 39.37)
 		)
 		(stroke
@@ -1290,6 +1300,16 @@
 			(type default)
 		)
 		(uuid "e277a0c8-6062-4660-a767-1619d4c07102")
+	)
+	(wire
+		(pts
+			(xy 129.54 73.66) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e91d7fde-26db-4af8-8c91-8d0bd7d33fb2")
 	)
 	(label "D2"
 		(at 91.44 50.8 0)
@@ -1856,7 +1876,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Universal Bus Connector v2"
+		(property "Value" "Universal Bus Connector"
 			(at 110.49 36.576 0)
 			(effects
 				(font
@@ -2298,7 +2318,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Universal Bus Connector v2"
+		(property "Value" "Universal Bus Connector"
 			(at 72.39 36.576 0)
 			(effects
 				(font
@@ -2398,6 +2418,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cac5abbc-6e78-46fd-a400-72b8c610d807")
+		(property "Reference" "#PWR06"
+			(at 130.81 80.01 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 135.128 75.184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 73.66 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab451fd0-cb17-40ae-b6ed-84df0aac88d8")
+		)
+		(instances
+			(project "universal-bus-connector"
+				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 132.08 43.18 0)
 		(mirror y)
@@ -2459,6 +2545,72 @@
 			(project "universal-bus-connector"
 				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
 					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 130.81 71.12 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fc3f2f74-ae97-4bda-bcb8-baca3c95fca0")
+		(property "Reference" "#PWR05"
+			(at 130.81 74.93 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 132.842 69.342 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 130.81 71.12 0)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "30272fce-650c-42e9-a869-283f0462c641")
+		)
+		(instances
+			(project "universal-bus-connector"
+				(path "/120d2c49-daff-425e-8ff2-b09f7f99bbee"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
